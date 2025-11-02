@@ -41,6 +41,10 @@ docker run -p 6333:6333 -p 6334:6334 qdrant/qdrant
 
 Qdrant will be available at `http://localhost:6333`
 
+Note: If Docker is not connected or Qdrant is not running,
+the system will automatically switch to local mode and create a
+./qdrant_local/ directory for storing embeddings locally —
+so the project will still run without Docker
 ### 3. Install Ollama Models
 
 Ensure Ollama is running, then pull the required models:
