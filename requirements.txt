@@ -1,0 +1,19 @@
+# PDF RAG Pipeline Dependencies
+
+# Core LangChain
+langchain>=0.1.0
+langchain-community>=0.0.20
+
+# PDF Processing
+PyMuPDF>=1.23.0
+
+# Vector Database
+qdrant-client>=1.7.0
+
+# LLM Integration (Ollama)
+# Note: ollama package is optional if using langchain_community.llms.Ollama
+# The Ollama service should be running separately
+
+# Utilities
+python-dotenv>=1.0.0
+
