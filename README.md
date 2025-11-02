@@ -263,13 +263,6 @@ optimized_multimodel/
 ├── rag_query.py                # RAG querying script
 ├── requirements.txt            # Python dependencies
 ├── README.md                   # This file
-│
-├── extracted_images/           # Directory for extracted images
-│   ├── page_1_img_1.png
-│   ├── page_2_img_1.jpg
-│   └── ...
-│
-└── image_metadata.json         # Metadata about extracted images
 ```
 
 ## Command-Line Options
@@ -382,7 +375,4 @@ If image extraction fails, the pipeline will continue with text-only processing.
 
 This project is created for educational/internship purposes.
 
-## Author
-
-Intern Assignment - Applied LLMs / Data Science
 
