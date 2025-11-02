@@ -341,7 +341,8 @@ Error connecting to Qdrant: Connection refused
 ```bash
 docker run -p 6333:6333 -p 6334:6334 qdrant/qdrant
 ```
-
+If not using Docker, ensure the local directory ./qdrant_local/ exists.
+The script automatically switches to local mode when Docker Qdrant is unavailable.
 ### Ollama Model Not Found
 
 ```
