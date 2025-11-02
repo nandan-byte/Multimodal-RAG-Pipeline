@@ -16,7 +16,11 @@ A complete Retrieval-Augmented Generation (RAG) pipeline built with Python, Lang
 
 ## Prerequisites
 
-1. **Docker** (for running Qdrant)
+1. **Docker** (for running Qdrant)  
+   > ⚙️ **Note:** If Docker is not connected or Qdrant is not running,  
+   > the system will automatically switch to **local mode** and create a  
+   > `./qdrant_local/` directory for storing embeddings locally —  
+   > so the project will still run without Docker.
 2. **Ollama** installed and running
    - Download from: https://ollama.ai
    - Install required models (see Setup section)
